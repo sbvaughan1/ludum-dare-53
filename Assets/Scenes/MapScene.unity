@@ -330,7 +330,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   desiredHeading: 0
-  speed: 100
+  speed: 0.25
+  currentVector: {x: 0, y: 0, z: 0}
+  turnSpeed: 0
+  turnProgress: 0
 --- !u!212 &1841096901
 SpriteRenderer:
   m_ObjectHideFlags: 0
