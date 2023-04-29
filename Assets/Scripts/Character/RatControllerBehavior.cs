@@ -26,7 +26,7 @@ public class RatControllerBehavior : MonoBehaviour
         var dy = Input.GetAxis("Vertical");
 
         // fake gravity
-        if (!isOnLadder) { dy = -1; }
+        if (!isOnLadder) { dy = -4; }
         
         var movement = new Vector2(dx, dy);
         characterController.Move(movement * Speed * Time.deltaTime);
