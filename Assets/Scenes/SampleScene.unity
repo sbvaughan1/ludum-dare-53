@@ -328,6 +328,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rat Three
       objectReference: {fileID: 0}
+    - target: {fileID: 8987700634558212179, guid: 52abcca3f7451f24dac40b3d40482f3f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987700634558212179, guid: 52abcca3f7451f24dac40b3d40482f3f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987700634558212179, guid: 52abcca3f7451f24dac40b3d40482f3f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8872138
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -957,6 +969,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rat Two
       objectReference: {fileID: 0}
+    - target: {fileID: 8987700634558212179, guid: 52abcca3f7451f24dac40b3d40482f3f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987700634558212179, guid: 52abcca3f7451f24dac40b3d40482f3f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8139286
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987700634558212179, guid: 52abcca3f7451f24dac40b3d40482f3f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5137255
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1504,9 +1528,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Background Music
-    clip: {fileID: 8300000, guid: 50c9fb6e77eb4bb45921d714f099e8d0, type: 3}
+    clip: {fileID: 8300000, guid: c330dceebab8c764289f63252275c229, type: 3}
     volume: 0.897
-    pitch: 1.5
+    pitch: 1.41
     loop: 1
     source: {fileID: 0}
   muteSfx: 0
