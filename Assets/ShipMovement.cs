@@ -20,7 +20,7 @@ public class ShipMovement : MonoBehaviour
         currentVector = desiredVector;
 
         speed = 0.25f;
-        turnProgress = 5.0f;
+        turnProgress = 0f;
         turnSpeed = 0.000005f;
     }
 
@@ -44,6 +44,7 @@ public class ShipMovement : MonoBehaviour
 
         currentVector = Vector3.Lerp(currentVector, desiredVector, turnProgress);
 
+        transform.eulerAngles = new Vector3(0, 0, Vector3.SignedAngle(new Vector3(0, 1, 0), currentVector, new Vector3(0, 0, 1)));
         transform.position += currentVector * speed * Time.deltaTime;
     }
 }
